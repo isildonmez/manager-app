@@ -20,6 +20,7 @@ export const passwordChanged = (text) => {
 	};
 };
 
+// redux thunk for asynchronous action creators.
 // by using dispatch below we can do whatever async actions we want.
 // Because we have direct access to dispatch method now,
 // we can dispatch as many actions as we'd like from a single action creator.
